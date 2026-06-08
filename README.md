@@ -207,11 +207,11 @@ Through this project I learned:
 
 ---
 ### Output screenshots
-
-<img width="922" height="331" alt="Screenshot 2026-06-08 124332" src="https://github.com/user-attachments/assets/c07f50bf-3df6-414a-b7bf-f0d91c422f7c" />
+<img width="938" height="400" alt="Screenshot 2026-06-08 124228" src="https://github.com/user-attachments/assets/fdaccc21-5799-42c8-b75b-eb66964cf7cf" />
 <img width="937" height="398" alt="Screenshot 2026-06-08 124253" src="https://github.com/user-attachments/assets/1d548af0-7a3d-41c9-9503-341f40a01cee" />
-<img width="937" height="398" alt="Screenshot 2026-06-08 124253" src="https://github.com/user-attachments/assets/ee14ec5a-0ec3-4320-bce6-cc4c180f488d" />
-<img width="937" height="398" alt="Screenshot 2026-06-08 124253" src="https://github.com/user-attachments/assets/1934c47a-56b9-4ac5-9cec-c93fcb660a8a" />
+<img width="922" height="331" alt="Screenshot 2026-06-08 124332" src="https://github.com/user-attachments/assets/c07f50bf-3df6-414a-b7bf-f0d91c422f7c" />
+<img width="922" height="331" alt="Screenshot 2026-06-08 124332" src="https://github.com/user-attachments/assets/c5699eed-03b0-4e94-ab6f-837057365381" />
+
 ## Author
 
 **PENDYALA BHAVYASREE**
