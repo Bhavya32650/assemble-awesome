@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { Fragment, useMemo, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { IRIS, CLASSES, CLASS_COLORS, type IrisClass } from "@/lib/iris-data";
 import {
@@ -153,7 +153,7 @@ function Header() {
 function HeroBlock({ predicted, k }: { predicted: IrisClass; k: number }) {
   return (
     <section className="relative overflow-hidden rounded-3xl border border-border bg-card/60 px-6 py-10 backdrop-blur md:px-12 md:py-14">
-      <div className="absolute inset-0 -z-10 opacity-60" style={{ background: "radial-gradient(60% 60% at 80% 20%, var(--color-primary) / 0.15, transparent 70%)" }} />
+      <div className="absolute inset-0 -z-10 opacity-70" style={{ background: "radial-gradient(60% 60% at 80% 20%, color-mix(in oklab, var(--color-primary) 20%, transparent), transparent 70%)" }} />
       <div className="text-xs uppercase tracking-[0.3em] text-primary">Data Classification · Supervised Learning</div>
       <h1 className="font-display mt-3 text-balance text-4xl font-bold leading-[1.05] md:text-6xl">
         From raw measurements to <span className="text-primary">intelligent decisions</span>.
