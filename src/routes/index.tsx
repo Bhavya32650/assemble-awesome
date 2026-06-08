@@ -406,8 +406,8 @@ function ConfusionMatrix({ confusion }: { confusion: number[][] }) {
           <div key={c} className="text-center font-mono uppercase text-muted-foreground">{c.slice(0, 4)}</div>
         ))}
         {confusion.map((row, i) => (
-          <>
-            <div key={`l${i}`} className="flex items-center justify-end pr-1 font-mono uppercase" style={{ color: CLASS_COLORS[CLASSES[i]] }}>
+          <Fragment key={`row${i}`}>
+            <div className="flex items-center justify-end pr-1 font-mono uppercase" style={{ color: CLASS_COLORS[CLASSES[i]] }}>
               {CLASSES[i].slice(0, 4)}
             </div>
             {row.map((v, j) => {
@@ -431,7 +431,7 @@ function ConfusionMatrix({ confusion }: { confusion: number[][] }) {
                 </div>
               );
             })}
-          </>
+          </Fragment>
         ))}
       </div>
       <p className="mt-3 text-xs text-muted-foreground">Rows = actual. Cols = predicted. Diagonal = correct.</p>
